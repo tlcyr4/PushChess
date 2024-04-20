@@ -1,6 +1,6 @@
 import {describe, expect, test} from '@jest/globals';
 
-import { PushChess, IllegalMoveError } from '../src/chess';
+import { PushChess, IllegalMoveError } from '../src/PushChess';
 
 describe('chess module', () => {
     test('loads an empty board', () => {
