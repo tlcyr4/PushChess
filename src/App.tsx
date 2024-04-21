@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Chessboard } from 'react-chessboard';
 import  PushChess from './PushChess'
 import { useHotkeys } from 'react-hotkeys-hook'
+import './App.css';
 
   const startingFen = '2r2qKq/2q1N1qq/4qQ2/2R1r3/2brrnb1/8/6r1/7B w HAha - 0 1'
 
