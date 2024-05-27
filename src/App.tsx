@@ -5,7 +5,7 @@ import  PushChess from './PushChess'
 import { useHotkeys } from 'react-hotkeys-hook'
 import './App.css';
 
-  const startingFen = '2r2qKq/2q1N1qq/4qQ2/2R1r3/2brrnb1/8/6r1/7B w HAha - 0 1'
+  const startingFen = 'B7/1r6/8/1bnrrb2/3r1R2/2Qq4/qq1N1q2/qKq2r2 w HAha - 0 1'
 
 function App() {
   const [history, setHistory] = useState(Array<PushChess>());
@@ -76,7 +76,6 @@ function App() {
         isDraggablePiece={isDraggablePiece}
         onPieceDrop={onPieceDrop} 
         customSquareStyles={Object.fromEntries(styles)}
-        boardOrientation='black'
         />
         </div>
     </div>
